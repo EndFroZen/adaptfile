@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <div class = "da">
+    <h1>awdafyt</h1>
+  </div>
+
+ <select id = "test"onchange="sub()">
+    <% for (let i = 0; i < data.length; i++) { %>
+      <option value="<%= i %>"><%= data[i].customerName %></option>
+    <% } %>
+ </select>
+ <button type="button" onclick="data()">click</button>
+ <script src="js/admin.js"></script>
+  </body>
+</html>
